@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a custom extension for Chrome and Edge browsers. It provides functionality to change subtitle size oj JioCinema.
+This is a custom extension for Chrome and Edge browsers. It provides functionality to change subtitle size of JioCinema.
 
 ## Installation
 
