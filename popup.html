@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #333;
+        color: #f0f0f0;
+      }
+      #content {
+        text-align: center;
+      }
+      h1 {
+        color: #f0f0f0;
+      }
+      #size {
+        width: 60px;
+        height: 30px;
+        font-size: 16px;
+        background-color: #555;
+        color: #f0f0f0;
+        border: none;
+      }
+      #change {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      #change:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Change Subtitle Size</h1>
+      <input id="size" type="number" min="10" max="100" step="1" value="50">
+      <button id="change">Change Size</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
