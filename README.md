@@ -8,10 +8,10 @@ This is a custom extension for Chrome and Edge browsers. It provides functionali
 ### UI
 ![UI](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/Extention.png)
 ### Before
-!Before https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/Before.png
+![Before](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/Before.png)
 ### After
-!After https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After.png
-!After https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After2.png
+![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After.png)
+![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After2.png)
 
 
 ## Installation
