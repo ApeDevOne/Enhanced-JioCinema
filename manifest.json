@@ -2,8 +2,14 @@
 {
   "manifest_version": 3,
   "name": "Enhanced JioCinema",
-  "version": "1.0",
+  "version": "1.1",
+  //"date": "2024-05-14",
   "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "/src/images/logo.png",
+    "48": "/src/images/logo.png",
+    "128": "/src/images/logo.png"
+  },
   "action": {
     "default_popup": "popup.html"
   },
