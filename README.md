@@ -4,14 +4,34 @@
 
 This is a custom extension for Chrome and Edge browsers. It provides functionality to change subtitle size of JioCinema.
 
+
+## Latest Release
+
+Check out the latest release of this project [here](https://github.com/ApeDevOne/Enhanced-JioCinema/releases/latest).
+
+# Changelog
+
+
+## [1.4.0] - 2024-08-24
+### Added
+- Added 4K support for chrome and edge browsers.
+
+### Changed
+- Rolled back to Manifest V2 from Manifest V3.
+
+### [Future]
+- Move to Manifest V3 once it becomes stable.
+
+
+
 ## Screenshots
 ### UI
-![UI](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/gh-pages/src/images/Extention.png)
+![UI](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/Extention.png)
 ### Before
-![Before](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/gh-pages/src/images/Before.png)
+![Before](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/Before.png)
 ### After
-![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/gh-pages/src/images/After.png)
-![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/gh-pages/src/images/After2.png)
+![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After.png)
+![After](https://github.com/ApeDevOne/Enhanced-JioCinema/blob/main/src/images/After2.png)
 
 
 ## Installation
