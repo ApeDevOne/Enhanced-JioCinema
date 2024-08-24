@@ -26,12 +26,12 @@ Check out the latest release of this project [here](https://github.com/ApeDevOne
 
 ## Screenshots
 ### UI
-![UI](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/Extention.png)
+![UI](https://apedevone.github.io/Enhanced-JioCinema/src/images/Extention.png)
 ### Before
-![Before](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/Before.png)
+![Before](https://apedevone.github.io/Enhanced-JioCinema/src/images/Before.png)
 ### After
-![After](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/After.png)
-![After](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/After2.png)
+![After](https://apedevone.github.io/Enhanced-JioCinema/src/images/After.png)
+![After](https://apedevone.github.io/Enhanced-JioCinema/src/images/After2.png)
 
 
 ## Installation
