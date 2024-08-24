@@ -6,7 +6,7 @@ This is a custom extension for Chrome and Edge browsers. It provides functionali
 
 ## Screenshots
 ### UI
-![UI](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/Extention.png)
+![UI](https://apedevone.github.io/Enhanced-JioCinema/src/images/Extention.png)
 ### Before
 ![Before](https://github.com/ApeDevOne/Enhanced-JioCinema/tree/gh-pages/src/images/Before.png)
 ### After
