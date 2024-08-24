@@ -2,7 +2,6 @@
   "manifest_version": 2,
   "name": "Enhanced JioCinema",
   "version": "1.4",
-  //"date": "2024-05-16",
   "permissions": [
     "activeTab",
     "notifications",
