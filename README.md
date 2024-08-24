@@ -26,7 +26,10 @@ Check out the latest release of this project [here](https://github.com/ApeDevOne
 
 ## Screenshots
 ### UI
-![UI](https://apedevone.github.io/Enhanced-JioCinema/src/images/Extention.png)
+<p align="center">
+  <img src="https://apedevone.github.io/Enhanced-JioCinema/src/images/Extention.png" width="45%" alt="Image 1" />
+  <img src="https://apedevone.github.io/Enhanced-JioCinema/src/images/jiocinema4k.png" width="45%" alt="Image 2" />
+</p>
 ### Before
 ![Before](https://apedevone.github.io/Enhanced-JioCinema/src/images/Before.png)
 ### After
