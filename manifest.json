@@ -1,19 +1,33 @@
-
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Enhanced JioCinema",
-  "version": "1.2",
+  "version": "1.4",
   //"date": "2024-05-16",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://www.jiocinema.com/*",
+    "*://ak-mediavod.jiocinema.com/*"
+  ],
   "icons": {
     "16": "/src/images/logo.png",
     "48": "/src/images/logo.png",
     "128": "/src/images/logo.png"
   },
-  "action": {
+  "browser_action": {
     "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "background.js"
-  }
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.jiocinema.com/*", "*://ak-mediavod.jiocinema.com/*"],
+      "js": ["content.js"]
+    }
+  ]
 }
