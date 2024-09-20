@@ -9,6 +9,10 @@ This is a custom extension for Chrome and Edge browsers. It provides functionali
 
 Check out the latest release of this project [here](https://github.com/ApeDevOne/Enhanced-JioCinema/releases/latest).
 
+## Beta Release
+
+Check out the beta release of this project [here](https://github.com/ApeDevOne/Enhanced-JioCinema/releases/tag/v1.7-beta).
+
 # Changelog
 
 
