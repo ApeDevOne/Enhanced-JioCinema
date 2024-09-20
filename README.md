@@ -46,7 +46,7 @@ Check out the beta release of this project [here](https://github.com/ApeDevOne/E
 
 ### Google Chrome
 
-1. **Download the Extension**: Download the `.zip` file of the extension from the repository and extract it on your local system.
+1. **Download the Extension**: Download the `.zip` file of the extension from the release page and extract it on your local system.
 
 2. **Open Chrome Extensions Page**: Open Google Chrome. In the address bar, type `chrome://extensions` and press `Enter`. This will open up the Extensions page.
 
@@ -56,13 +56,19 @@ Check out the beta release of this project [here](https://github.com/ApeDevOne/E
 
 ### Microsoft Edge
 
-1. **Download the Extension**: Download the `.zip` file of the extension from the repository and extract it on your local system.
+1. **Download the Extension**: Download the `.zip` file of the extension from the release page and extract it on your local system.
 
 2. **Open Edge Extensions Page**: Open Microsoft Edge. In the address bar, type `edge://extensions` and press `Enter`. This will open up the Extensions page.
 
 3. **Enable Developer Mode**: On the bottom left corner, you'll find a toggle for `Developer mode`. Make sure it is turned on.
 
 4. **Load Unpacked Extension**: Click on `Load unpacked` button on the top left. Navigate to the extracted folder of the extension and select it. The extension should now be visible in your extensions list and ready to use.
+
+### Firefox
+
+1. **Download the Extension**: Download the `.zip` file of the extension from the release page and extract it on your local system.
+2. **Navigate to** : about:debugging#/runtime/this-firefox
+3. **Load Temporary Addon**
 
 ## Usage
 
