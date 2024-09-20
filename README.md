@@ -15,6 +15,12 @@ Check out the beta release of this project [here](https://github.com/ApeDevOne/E
 
 # Changelog
 
+## [1.7.0-beta] - 2024-09-20
+### Added
+- Chrome storage access - Allows keeping settings even after closing the browser.
+- Removed annoying black overlay and JioCinema watermark.
+- Removed carousel from fullscreen.
+- Added firefox support.
 
 ## [1.4.0] - 2024-08-24
 ### Added
