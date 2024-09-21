@@ -1,26 +1,54 @@
-document.getElementById('change').addEventListener('click', () => {
-  let size = document.getElementById('size').value;
-  let font = document.getElementById('font').value;
-  let opacity = document.getElementById('opacity').value;
+document.addEventListener('DOMContentLoaded', () => {
   
-  chrome.browserAction.setBadgeText({text: 'ON'});
-  chrome.browserAction.setBadgeBackgroundColor({color: '#4688F1'});
+  chrome.storage.sync.get(['font', 'size', 'opacity'], (data) => {
+    const font = data.font || 'Arial';
+    const size = data.size || 50; // Default size
+    const opacity = data.opacity || 0.5; // Default opacity
 
-  chrome.tabs.query({active: true, currentWindow: true}, tabs => {
-    chrome.tabs.executeScript(tabs[0].id, {
-      code: `(${changeSubtitleStyle.toString()})(${size}, '${font}', ${opacity});`
+    document.getElementById('font').value = font;
+    document.getElementById('size').value = size;
+    document.getElementById('sizeValue').innerText = size + '%';
+    document.getElementById('opacity').value = opacity;
+    document.getElementById('opacityValue').innerText = Math.round(opacity * 100) + '%';
+
+    
+    changeSubtitleStyle(size, font, opacity);
+  });
+
+  
+  document.getElementById('change').addEventListener('click', () => {
+    let size = document.getElementById('size').value;
+    let font = document.getElementById('font').value;
+    let opacity = document.getElementById('opacity').value;
+
+    
+    chrome.storage.sync.set({ font, size, opacity }, () => {
+      console.log('Settings saved:', { font, size, opacity });
+    });
+
+    
+    chrome.browserAction.setBadgeText({ text: '' });
+    chrome.browserAction.setBadgeBackgroundColor({ color: '#4688F1' });
+
+    
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      chrome.tabs.executeScript(tabs[0].id, {
+        code: `(${changeSubtitleStyle.toString()})(${size}, '${font}', ${opacity});`
+      });
     });
   });
-});
 
-document.getElementById('size').addEventListener('input', () => {
-  let size = document.getElementById('size').value;
-  document.getElementById('sizeValue').innerText = size + '%';
-});
+  
+  document.getElementById('size').addEventListener('input', () => {
+    let size = document.getElementById('size').value;
+    document.getElementById('sizeValue').innerText = size + '%';
+  });
 
-document.getElementById('opacity').addEventListener('input', () => {
-  let opacity = document.getElementById('opacity').value;
-  document.getElementById('opacityValue').innerText = Math.round(opacity * 100) + '%';
+  
+  document.getElementById('opacity').addEventListener('input', () => {
+    let opacity = document.getElementById('opacity').value;
+    document.getElementById('opacityValue').innerText = Math.round(opacity * 100) + '%';
+  });
 });
 
 function changeSubtitleStyle(size, font, opacity) {
@@ -44,6 +72,6 @@ function changeSubtitleStyle(size, font, opacity) {
       `;
       document.head.appendChild(style);
     });
-    observer.observe(textContainer, {childList: true, subtree: true});
+    observer.observe(textContainer, { childList: true, subtree: true });
   }
 }
