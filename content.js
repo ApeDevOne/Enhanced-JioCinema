@@ -22,3 +22,41 @@ function changeSubtitleStyle(size, font, opacity) {
     observer.observe(textContainer, {childList: true, subtree: true});
   }
 }
+
+
+
+
+function hideElements() {
+    
+    const element1 = document.querySelector('.mui-style-14bpygg-showScrim.mui-style-1pgbicw-scrim');
+    if (element1) {
+        element1.style.display = 'none'; 
+        console.log('First element hidden');
+    }
+
+    
+    const element2 = document.querySelector('.h-fit.ml-6');
+    if (element2) {
+        element2.style.display = 'none'; 
+        console.log('Second element hidden');
+    }
+
+    
+    const element3 = document.querySelector('.mui-style-1p87yg8-watermarkContainer');
+    if (element3) {
+        element3.style.display = 'none'; 
+        console.log('Third element hidden');
+    }
+}
+
+
+hideElements();
+
+
+const observer = new MutationObserver(hideElements);
+observer.observe(document.body, { childList: true, subtree: true });
+
+
+
+
+
