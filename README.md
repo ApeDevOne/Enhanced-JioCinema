@@ -99,3 +99,8 @@ For any issues or suggestions related to this extension, please open an issue in
 ## License
 
 ApeDevOne © 2024. Released under the MIT License.
+
+## Disclaimer
+
+The use of this extension is at your own risk. The author is not liable for any damages, data loss, or security breaches that may occur as a result of using this extension. By using this extension, you agree to hold the author harmless for any issues that arise.
+
