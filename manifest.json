@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Enhanced JioCinema",
-  "version": "1.4",
+  "version": "1.8",
   "permissions": [
     "activeTab",
     "notifications",
@@ -12,9 +12,10 @@
     "*://ak-mediavod.jiocinema.com/*"
   ],
   "icons": {
+    
     "16": "/src/images/logo.png",
-    "48": "/src/images/logo.png",
-    "128": "/src/images/logo.png"
+  "48": "/src/images/logo.png",
+  "128": "/src/images/logo.png"
   },
   "browser_action": {
     "default_popup": "popup.html"
