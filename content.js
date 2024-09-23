@@ -25,26 +25,6 @@ function changeSubtitleStyle(size, font, opacity) {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function hideElements() {
     
     const element1 = document.querySelector('.mui-style-14bpygg-showScrim.mui-style-1pgbicw-scrim');
