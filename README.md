@@ -15,6 +15,9 @@ Check out the beta release of this project [here](https://github.com/ApeDevOne/E
 
 # Changelog
 
+## [1.9.0] - 2024-09-23
+### Hotfix: Updated subtitle customization to work with recent changes.
+
 ## [1.8.0] - 2024-09-21
 ### Added
 - Chrome storage access - Allows keeping settings even after closing the browser.
