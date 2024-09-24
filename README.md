@@ -15,6 +15,9 @@ Check out the beta release of this project [here](https://github.com/ApeDevOne/E
 
 # Changelog
 
+## [1.9.2] - 2024-09-24
+### Hotfix: Updated subtitle customization to work with recent changes.
+
 ## [1.9.0] - 2024-09-23
 ### Hotfix: Updated subtitle customization to work with recent changes.
 
